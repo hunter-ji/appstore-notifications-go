@@ -63,7 +63,7 @@ type TransactionInfo struct {
 	OfferType                   int32  `json:"offerType"`
 	OriginalPurchaseDate        int    `json:"originalPurchaseDate"`
 	OriginalTransactionId       string `json:"originalTransactionId"`
-	Price                       string `json:"price,omitempty"`
+	Price                       int64  `json:"price,omitempty"`
 	ProductId                   string `json:"productId"`
 	PurchaseDate                int    `json:"purchaseDate"`
 	Quantity                    int32  `json:"quantity"`
